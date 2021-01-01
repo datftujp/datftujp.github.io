@@ -1,9 +1,81 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>MyFirstProject</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <title>CSS Cheat Sheet</title>
+        <link href = "styles.css" type="text/css"  rel = "Stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>CSS Reference</h1>
+        </header>
+        <div class = "table-1">
+            <header>
+                <h2>CSS Selectors</h2>
+                <p>In CSS, selectors are patterns used to select the element(s) you want to style.</p>
+            </header>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Selector</th>
+                        <th>Example</th>
+                        <th>Example description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                       <td class = "selector">.class</td>
+                       <td>.intro</td> 
+                       <td>Selects all elements with class="intro"</td>
+                    </tr>
+                    <tr>
+                        <td class = "selector">.class1.class2</td>
+                        <td>.name1.name2</td>
+                        <td>Selects all elements with both name1 and name2 set within its class attribute</td>
+                    </tr>
+                    <tr>
+                        <td class = "selector">#id</td>
+                        <td>#firstname</td>
+                        <td>Selects the element with id="firstname"</td>
+                    </tr>
+                    <tr>
+                        <td class = "selector">element.class</td>
+                        <td>p.intro</td>
+                        <td>Selects all p elements with class="intro"</td>
+                    </tr>
+                    <td class = "selector">element+element</td>
+                    <td>div + p</td>
+                    <td>Selects the first p element that are placed immediately after div elements</td>
+                </tbody>
+            </table>
+        </div>
+        <div class = "table-2">
+            <table>
+                <header>
+                    <h2>CSS Functions</h2>
+                    <p>CSS functions are used as a value for various CSS properties.</p>
+                </header>
+                <thead>
+                    <tr>
+                        <th>Function</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>attr()</td>
+                        <td>Returns the value of an attribute of the selected element</td>
+                    </tr>
+                    <tr>
+                        <td>calc()</td>
+                        <td>Allows you to perform calculations to determine CSS property values</td>
+                    </tr>
+                    <tr>
+                        <td>cubic-bezier()</td>
+                        <td>Defines a Cubic Bezier curve</td>                        
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+    </body>
 </html>

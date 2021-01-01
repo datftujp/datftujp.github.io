@@ -1,0 +1,35 @@
+h1{
+    font-family: Lucida Console, Courier, monospace;
+    text-align: center;
+    color: blue;
+    background-image: url("https://i.pinimg.com/564x/ca/e0/4e/cae04efffafce6cdc9440fc372fd75ee.jpg" );
+    
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+
+}
+.table-1 h2{
+    background-color: cornflowerblue;
+}
+.table-2 h2 {
+    background-color: greenyellow;
+}
+p{
+    font-weight: bold;
+    text-align: center;
+}
+.selector{
+    font-style: italic;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 auto;
+}
+table,tr,td,th{
+    border: 0.5px solid black;
+    align-self: center;
+}
